@@ -4,7 +4,7 @@
 <property name="classes.dir" value="build/classes"/>
 <property name="jars.dir" value="build/jar"/>
 <target name="clean">
-	<delete dir="${classes.dir}/com/test"/>
+	<delete dir="${build.dir}"/>
 </target>
 <target name="build-all" depends="clean">
 	<mkdir dir="${classes.dir}"/>
